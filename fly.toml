@@ -1,0 +1,7 @@
+app = "app-ancient-waterfall-3014"
+
+[build]
+  builder = "heroku/buildpacks:20"
+
+[env]
+  DATABASE_URL = "postgresql://user:pass@host:5432/dbname"
